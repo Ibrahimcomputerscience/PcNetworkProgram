@@ -10,7 +10,7 @@ echo.
 
 
 :MENU
-echo /-\-/-\-/-\-/-\-/-\ M E N U /-\-/-\-/-\-/-\-/-\
+echo /-\-/-\-/-\-/-\-/-\-/-\ M E N U /-\-/-\-/-\-/-\-/-\
 echo.
 echo Press H for hardware configuration
 echo Press N for network configuration 
@@ -24,6 +24,10 @@ if /I %M%==h goto Hardware
 if /I %M%==n goto Network
 if %M%==ENTER goto EOF
 if /I %M%==C goto Cls
+echo.
+echo Invalid option :( , please try again 
+echo.
+goto MENU
 
 
 :Hardware

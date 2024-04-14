@@ -10,7 +10,7 @@ echo.
 
 
 :MENU
-echo /-\-/-\-/-\-/-\-/-\-/-\ M E N U /-\-/-\-/-\-/-\-/-\
+echo /-\-/-\-/-\-/-\-/-\ M E N U /-\-/-\-/-\-/-\-/-\
 echo.
 echo Press H for hardware configuration
 echo Press N for network configuration 
